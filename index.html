@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Davi Martini Agrello Cintra">
+    <meta name="description" content="Aplicação que tem como objetivo transmitir uma mensagem de inspiração por dia do ano">
+    <meta name="keywords" content="inspiração, motivação, desenvolvimento pessoal, crescimento">
+    <script src="script/quotes.js"></script>
+    <script src="script/script.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <title>Motivate Me</title>
+</head>
+
+<body onload="generateDate()">
+    <div class="container">
+        <div class="content-wrap">
+            <div class="illustrationBox">
+                <div class="illustration"></div>
+            </div>
+            <h2 id="data"></h2>
+            <button onclick=motivar()>MOTIVATE</button>
+        </div>
+    </div>
+</body>
+
+</html>
